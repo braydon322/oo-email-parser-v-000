@@ -8,7 +8,7 @@ class EmailParser
   end
 
   def parse
-    new_array = @list.split(", ")
+    new_array = @list.split(",")
     new_array.uniq
   end
 
