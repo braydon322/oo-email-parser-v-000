@@ -16,8 +16,7 @@ class EmailParser
       new_array.each do |email|
         array_without_whitespace << email.split(" ")
       end
-
-      array_without_whitespace
+      array_without_whitespace = array_without_whitespace.flatten
   end
 
 end
