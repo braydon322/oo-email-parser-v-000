@@ -13,6 +13,4 @@ class EmailParser
     new_array.uniq
   end
 
-
-
 end
