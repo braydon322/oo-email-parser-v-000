@@ -12,11 +12,7 @@ class EmailParser
 
   def parse
       new_array = @list.split(/,\s/).uniq
-      if new_array.include?(" ")
-        new_array = new_array.split(" ")
-      end
       new_array
-
   end
 
 end
