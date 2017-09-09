@@ -11,8 +11,11 @@ class EmailParser
   end
 
   def parse
+      array_without_whitespace = []
       new_array = @list.split(/,\s/).uniq
-      new_array
+      new_array.each do |email|
+        array_without_whitespace << email.split(" ")
+      end
   end
 
 end
