@@ -14,7 +14,7 @@ class EmailParser
     while new_array.include?(" ")
       new_array = @list.split(/,\s/)
     end
-
+    new_array
   end
 
 end
