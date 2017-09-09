@@ -16,6 +16,8 @@ class EmailParser
       new_array.each do |email|
         array_without_whitespace << email.split(" ")
       end
+
+      array_without_whitespace
   end
 
 end
