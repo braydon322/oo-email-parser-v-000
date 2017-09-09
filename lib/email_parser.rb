@@ -4,6 +4,7 @@
 # or whitespace (' ').
 
 require 'pry'
+
 class EmailParser
   def initialize(list)
     @list = list
